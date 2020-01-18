@@ -18,8 +18,14 @@
   opacity: 0.5;
 }
 
-/* TODO(dseomn): Use a different background color between the card list and the
- * cards. */
+/*
+.card-list {
+  background: @theme_bg_color;
+}
+
+.card-list > row:not(:active):not(:hover):not(:disabled):not(:selected):not(:focus):not(:indeterminate):not(:backdrop) {
+  background: @theme_base_color;
+}*/
 
 .card-list > row {
   border: 2px @borders solid;
